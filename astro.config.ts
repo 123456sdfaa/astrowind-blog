@@ -72,7 +72,8 @@ export default defineConfig({
   ],
 
   image: {
-    domains: ['cdn.pixabay.com'],
+    domains: ['cdn.pixabay.com', 'plus.unsplash.com', 'images.unsplash.com', 'raw.githubusercontent.com', 'upload.wikimedia.org'],
+    remotePatterns: [{ protocol: 'https' }],
   },
 
   markdown: {
